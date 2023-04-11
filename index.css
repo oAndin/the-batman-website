@@ -27,20 +27,44 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.495), rgba(0, 0, 0, 0.101));
+    background: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.429));
     
 }
-#logo {
-    margin: auto;
-    width: 50%;
-}
-
 #poster {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     z-index: -1;
-     
+}
+#logo {
+    border: 1px solid #ffffff;
+    margin: 10% 0% 5% 10%;
+    width: 35%; 
+}
+ 
+.conteudo .textos {
+        border: 1px solid #ffffff;
+        width: 33%;
+        margin: 2% 0% 0% 11%;
 }
 
+#texto-1 {
+        border: 1px solid #fff700;
+}
+    
+#texto-2 {
+        border: 1px solid #00ff1e;
+}
+    
+#texto-3 {
+        border: 1px solid #4400ff;
+}
 
+.botoes {
+    border: 1px solid #00ff1e;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+    
