@@ -23,7 +23,7 @@ main::after{
 }
 
 .informacoes {
-/*     border: 2px solid #ffffff; */
+
 }
 
 .imagem {
@@ -40,30 +40,31 @@ main::after{
 }
 
 .conteudo .logo {
-    max-width: 350px;
-    margin: 0px 0px 80px 0px;
-    margin: 8% 0 0 8%;
-    
+    max-width: 450px;
+    margin:80px; 
 }
 
 .textos {
-    width: 35%;
+    width: 37%;
     font-size: 1rem;
-    color: #ffffff;
     line-height: 30px;
-    margin: 8% 0 0 8%;
+    margin: 0 0 0 80px;
+}
+
+p{
+    color: #ffe2e2;
 }
 
 .informacoes .menu-lateral {
     width: 80px;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: invert(1);
+    /* filter: invert(1); */
     
 }
 
