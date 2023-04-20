@@ -1,5 +1,5 @@
 body {
-    max-width: 1920px;
+    max-width: 1280px;
     margin:0 auto;
     background-color: black;
     user-select: none;
@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content:space-evenly;
+    transition: 1s ease-in-out;
 }
 
 main::after{
@@ -40,18 +41,24 @@ main::after{
 
 .conteudo .logo {
     max-width: 450px;
-    margin:80px; 
+    margin:80px;
+    opacity: .5;
 }
 
+
 .textos {
-    width: 37%;
+    width: 35%;
     font-size: 1rem;
     line-height: 30px;
     margin: 0 0 0 80px;
 }
 
 p{
-    color: #ffe2e2;
+    color: #ffffff80;
+    text-shadow: 2px 4px 4px #bf0f0f;
+    transition: 1.0s ease-in-out;
+    text-align:justify;
+    /* text-justify:inter-word; */
 }
 
 .informacoes .menu-lateral {
@@ -63,8 +70,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    
 }
 
 aside ul{
@@ -76,7 +81,7 @@ aside ul{
 }
 
 aside ul li i { 
-    color: #ffffff55;
+    color: #ffffff50;
     /* filter: invert(1); */
     font-size: 2rem;
     transition: 0.5s ease-in-out; 
