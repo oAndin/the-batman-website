@@ -41,7 +41,7 @@ main::after{
 
 .conteudo .logo {
     max-width: 450px;
-    margin:80px;
+    margin:0 0 1rem 5rem;
     opacity: .5;
 }
 
@@ -50,7 +50,7 @@ main::after{
     width: 35%;
     font-size: 1rem;
     line-height: 30px;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 5rem;
 }
 
 p{
